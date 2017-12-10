@@ -1,0 +1,22 @@
+[
+  {
+    "title": "社区新闻",
+    "url": "www.baidu.com",
+    "child": [
+      {
+        "title": "最新新闻",
+        "url": "www.baidu.com"
+      },
+      {
+        "title": "最新资讯",
+        "url": "www.baidu.com"
+      }
+    ]
+  },
+  {
+    "title": "社区公告",
+    "url": "www.baidu.com"
+
+  }
+]
+

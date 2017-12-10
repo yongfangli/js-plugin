@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>导航栏</title>
+    <meta encoding="utf-8">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="drop.min.js"></script>
+    <script>
+        window.onload=function () {
+            var drop=new Drop();
+            drop.setting={
+                data:
+                    [
+                        {
+                            "title": "社区新闻",
+                            "url": "http://www.baidu.com",
+                            "child": [
+                                {
+                                    "title": "最新新闻",
+                                    "url": "http://www.baidu.com"
+                                },
+                                {
+                                    "title": "最新资讯",
+                                    "url": "http://www.baidu.com"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "社区公告",
+                            "url": "http://www.baidu.com"
+
+                        },
+                        {
+                            "title": "办事指南",
+                            "url": "http://www.baidu.com"
+
+                        }
+                    ]
+            };
+            drop.render();
+        }
+    </script>
+
+
+</head>
+<div id="drop-head">
+</div>
+</html
